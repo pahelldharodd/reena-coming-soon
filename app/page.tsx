@@ -1,5 +1,5 @@
 import Image from 'next/image'
-// import { Button } from "@/components/ui/button"
+// Remove the unused Button import
 import { FaInstagram, FaWhatsapp } from 'react-icons/fa'
 
 export default function ComingSoon() {
@@ -19,7 +19,7 @@ export default function ComingSoon() {
           Coming Soon...
         </h1>
         <p className="text-xl md:text-2xl text-[#6D6D6D] mb-8 max-w-md mx-auto animate-fade-in animation-delay-300 font-light">
-          We're crafting something exquisite. Our new collection will be unveiled shortly.
+          We&apos;re crafting something exquisite. Our new collection will be unveiled shortly.
         </p>
         <div className="space-y-4 animate-fade-in animation-delay-600">
           <p className="text-[#3D3D3D] font-serif text-lg">Stay connected:</p>
